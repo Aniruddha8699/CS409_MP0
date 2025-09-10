@@ -1,1 +1,26 @@
 /* Your CSS here. */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 800px;
+    background: grey; 
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.photo {
+    height: 150px;
+    weight: 150px;
+}
+
+.summary{
+    text-align: center;
+}
